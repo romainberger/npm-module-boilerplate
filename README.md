@@ -1,4 +1,4 @@
-# NPM Module Boilerplate [![build status](https://travis-ci.com/romainberger/npm-module-boilerplate.svg)](https://magnum.travis-ci.com/romainberger/npm-module-boilerplate)
+# NPM Module Boilerplate [![Build Status](https://img.shields.io/travis/romainberger/npm-module-boilerplate/master.svg?style=flat-square)](https://travis-ci.org/romainberger/npm-module-boilerplate)
 
 Personal boilerplate for modules.
 
