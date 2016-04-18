@@ -4,12 +4,12 @@ Personal boilerplate for modules.
 
 Includes:
 
-* [Babel] stage 0
-* [Mocha], [Chai] for testing
-* [Flow] for static type checking
-* [Travis CI]
+* [Babel](https://babeljs.io/) stage 0
+* [Mocha](https://mochajs.org/), [Chai](http://chaijs.com/) for testing
+* [Flow](http://flowtype.org/) for static type checking
+* [Travis CI](https://travis-ci.com/) for continuous integration
 
-## Usage
+## New project initialization
 
 ```shell
 $ git clone
@@ -18,4 +18,18 @@ $ cd awesome-module
 $ rm -rf .git
 $ git init
 $ npm install
+```
+
+## Usage
+
+Run tests:
+
+```shell
+$ npm test
+```
+
+Run flow
+
+```shell
+$ npm run flow
 ```
