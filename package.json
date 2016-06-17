@@ -1,16 +1,26 @@
 {
-  "name": "npm-module-boilerplate",
+  "name": "@romainberger/css-diff",
   "version": "1.0.0",
-  "description": "",
+  "description": "Get the diff between two css",
   "main": "lib/index.js",
   "scripts": {
     "build": "rm -rf lib && babel src --out-dir lib",
     "test": "mocha --compilers js:babel-register test/*.js",
-    "prepublish": "npm run build",
-    "flow": "flow"
+    "prepublish": "npm run build"
   },
   "author": "Romain Berger <romain@romainberger.com>",
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/romainberger/css-diff"
+  },
+  "bugs": {
+    "url": "https://github.com/romainberger/css-diff"
+  },
+  "homepage": "https://github.com/dailymotion/css-diff",
+  "keywords": [
+    "css",
+    "diff"
+  ],
   "license": "MIT",
   "devDependencies": {
     "babel": "^6.5.2",
@@ -20,7 +30,9 @@
     "babel-preset-stage-0": "^6.5.0",
     "babel-register": "^6.7.2",
     "chai": "^3.5.0",
-    "flow-bin": "^0.22.1",
     "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "postcss": "^5.0.21"
   }
 }
